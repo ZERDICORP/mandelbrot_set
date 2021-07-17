@@ -1,0 +1,15 @@
+#include "include.h"
+#include "macros.h"
+
+#ifndef MAIN_CONFIG
+	#define MAIN_CONFIG
+		enum EVENT_CODE
+		{
+			NULL_EVENT_CODE,
+			CLOSE_EVENT_CODE,
+			RESTART_EVENT_CODE,
+			MOUSE_LEFT_EVENT_CODE,
+			MOUSE_RIGHT_EVENT_CODE,
+			RESTORE_DEFAULT_CONFIG_EVENT_CODE
+		};
+#endif
