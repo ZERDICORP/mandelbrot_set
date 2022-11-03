@@ -5,7 +5,7 @@
 ## Launch guide
 
 ```console
-$ git clone https://github.com/ZERDICORP/mandelbrot_set".git
+$ git clone https://github.com/ZERDICORP/mandelbrot_set.git
 $ cd mandelbrot_set
 $ ./run
 ```
